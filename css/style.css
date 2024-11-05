@@ -119,7 +119,6 @@ footer{
     min-height: 500px;
     padding-top: 15px;
     padding-bottom: 35px;
-    border-bottom: 1px solid white;
 }
 .footer-top .small{
     width: 18%;
@@ -130,4 +129,20 @@ footer{
     width: 28%;
     background-color:#f08080;
     border: 1px dashed black;
+}
+.footer-bottom, .footer-top{
+    border-bottom: 1px solid white;
+}
+.footer-bottom > .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color:#7fffd4;
+}
+
+.footer-bottom .container *{
+    border: 1px dashed black;
+    background-color:#ffb6c1 ;
+    padding: 6px;
 }
