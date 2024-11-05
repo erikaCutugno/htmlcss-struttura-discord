@@ -16,6 +16,7 @@
     margin-left: auto;
     margin-right: auto;
 }  
+
 /*------------
    HEADER
 ------------*/    
@@ -51,5 +52,58 @@
     background-color:#ee82ee;
     max-width: 900px;
     min-height: 300px;
+    border: 1px dashed black;
+}
+
+/*------------
+   MAIN
+------------*/ 
+
+.section-top > .container{
+    display: flex;
+    padding: 40px 0;
+}
+.section-top .big, .section-top .small{
+    min-height: 450px ;
+    border: 1px dashed black;
+}
+.section-top .big{
+    background-color: #1e90ff;
+    width: 60%;
+}
+.section-top .small{
+    background-color:#ffc0cb ;
+    width: 40%;
+}
+
+.section-center{
+    background-color:#d3d3d3 ;
+}
+.section-center > .container{
+    display: flex;
+    padding: 40px 0;
+}
+.section-center .big, .section-center .small{
+    min-height: 450px ;
+    border: 1px dashed black;
+}
+.section-center .big{
+    background-color: #1e90ff;
+    width: 60%;
+}
+.section-center .small{
+    background-color:#ffc0cb ;
+    width: 40%;
+}
+
+
+.section-bottom {
+    padding:40px 0;
+    background-color: #d3d3d3;
+}
+.section-bottom .container {
+    display: flex;
+    background-color:#228b22;
+    min-height: 800px;
     border: 1px dashed black;
 }
