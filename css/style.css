@@ -107,3 +107,27 @@
     min-height: 800px;
     border: 1px dashed black;
 }
+
+/*------------
+    FOOTER  
+------------*/ 
+footer{
+    background-color: #23272a;
+}
+.footer-top > .container{
+    display: flex;
+    min-height: 500px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid white;
+}
+.footer-top .small{
+    width: 18%;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
+.footer-top .big{
+    width: 28%;
+    background-color:#f08080;
+    border: 1px dashed black;
+}
